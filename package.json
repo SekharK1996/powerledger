@@ -1,0 +1,19 @@
+{
+  "name": "powerledger",
+  "version": "1.0.0",
+  "description": "POC Project for the Powerledger",
+  "main": "",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
+    "cypress": "^12.4.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
